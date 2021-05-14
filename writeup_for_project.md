@@ -4,7 +4,7 @@ The goal of this project is to identify road lanes in a video stream of a forwar
 
 We'll be using image manipulation techniques to extract enough information from each frame, or image, of the video and identify the lane lines, the radius of curvature and the distance from the camera to the center line of the road.
 
-![alt text](videos/project_video_augmented.gif "Result")
+![alt text](project_video_augmented.gif "Result")
 
 ## Project Structure
 
