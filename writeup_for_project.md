@@ -73,7 +73,7 @@ Here's one example:
 
 ![alt-text-1](output_images/chessboard-original.png "Original | Calibrated")
 
-> For full implementation details please see the [jupyter notebook](Advanced-Lane-Finding.ipynb)
+> For full implementation details please see the [jupyter notebook](advance_lane_finding.ipynb)
 
 ## Color Transform
 
@@ -119,7 +119,7 @@ We apply all these transformations so we can identify the edges on the lane line
 
 ![alt-text-1](output_images/color-transform-example.png)
 
-> For full implementation details please see the [jupyter notebook](advanced_lane_finding.ipynb)
+> For full implementation details please see the [jupyter notebook](advance_lane_finding.ipynb)
 
 ## Perspective Transform
 
@@ -159,7 +159,7 @@ Here's an example of the transformation:
 
 ![alt-text-1](output_images/perspective-transform-example.png)
 
-> For full implementation details please see the [jupyter notebook](advanced_lane_finding.ipynb)
+> For full implementation details please see the [jupyter notebook](advance_lane_finding.ipynb)
 
 
 ## Lane Pixel Detection
@@ -196,7 +196,7 @@ Here's an example augmented image:
 
 ![alt-text-1](output_images/augmented-image-example.png)
 
-> For full implementation details please see the [jupyter notebook](advanced_lane_finding.ipynb)
+> For full implementation details please see the [jupyter notebook](advance_lane_finding.ipynb)
 
 
 ## Pipeline
@@ -250,7 +250,7 @@ self.left_lane = LaneLine(nonzero[1][left_lane_inds], nonzero[0][left_lane_inds]
 self.right_lane = LaneLine(nonzero[1][right_lane_inds], nonzero[0][right_lane_inds], self.height, self.width)
 ```
 
-> For full implementation details please see the [jupyter notebook](advanced_lane_finding.ipynb)
+> For full implementation details please see the [jupyter notebook](advance_lane_finding.ipynb)
 
 ---
 
